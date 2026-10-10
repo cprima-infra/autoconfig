@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientConfig version="1.1">
+  <emailProvider id="cpmx.de">
+    <domain>cpmx.de</domain>
+    <displayName>cpmx.de</displayName>
+    <displayShortName>cpmx</displayShortName>
+
+    <incomingServer type="imap">
+      <hostname>imap.in-berlin.de</hostname>
+      <port>993</port>
+      <socketType>SSL</socketType>
+      <authentication>password-cleartext</authentication>
+      <username>cpr_cpmx</username>
+    </incomingServer>
+
+    <outgoingServer type="smtp">
+      <hostname>smtp.postmarkapp.com</hostname>
+      <port>587</port>
+      <socketType>STARTTLS</socketType>
+      <authentication>password-cleartext</authentication>
+    </outgoingServer>
+  </emailProvider>
+</clientConfig>

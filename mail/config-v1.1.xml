@@ -18,6 +18,7 @@
       <port>587</port>
       <socketType>STARTTLS</socketType>
       <authentication>password-cleartext</authentication>
+      <username>%EMAILADDRESS%</username>
     </outgoingServer>
   </emailProvider>
 </clientConfig>
